@@ -3,6 +3,7 @@
     <string name="confirmar_datos">Confirmar Datos</string>
 
     <string name="nombre">Nombre: </string>
+    <string name="fecha">Fecha:</string>
     <string name="telefono">Telefono: </string>
     <string name="correo">Correo: </string>
     <string name="descripcion">Descripción: </string>
@@ -17,6 +18,7 @@
     <string name="btn_editar">Editar Datos</string>
 
     <string name="pnombre">nombre</string>
+    <string name="pfecha">fecha</string>
     <string name="ptelefono">telefono</string>
     <string name="pcorreo">correo</string>
     <string name="pdescripcion">descripcion</string>
