@@ -31,7 +31,6 @@ public class DetailContact extends AppCompatActivity {
 
         btnEditar = (Button) findViewById(R.id.btnEditar);
 
-        // Mostrar el texto enviado por el Activity
         tvNombre.setText(nombre);
         tvFecha.setText(fecha);
         tvTelefono.setText(telefono);

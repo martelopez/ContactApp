@@ -45,9 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marge_top"
             android:layout_marginLeft="@dimen/margen_izq"
-            android:layout_marginRight="@dimen/marge_der"
-            />
-
+            android:layout_marginRight="@dimen/marge_der" />
         <TextView
             android:id="@+id/tvFecha"
             android:layout_width="match_parent"
@@ -71,9 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marge_top"
             android:layout_marginLeft="@dimen/margen_izq"
-            android:layout_marginRight="@dimen/marge_der"
-            />
-
+            android:layout_marginRight="@dimen/marge_der"/>
         <TextView
             android:id="@+id/tvTelefono"
             android:layout_width="match_parent"
@@ -99,7 +95,6 @@
             android:layout_marginLeft="@dimen/margen_izq"
             android:layout_marginRight="@dimen/marge_der"
             />
-
         <TextView
             android:id="@+id/tvCorreo"
             android:layout_width="match_parent"
@@ -125,7 +120,6 @@
             android:layout_marginLeft="@dimen/margen_izq"
             android:layout_marginRight="@dimen/marge_der"
             />
-
         <TextView
             android:id="@+id/tvDescripcion"
             android:layout_width="match_parent"

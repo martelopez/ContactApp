@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
 
-
         btnSiguiente = (Button) findViewById(R.id.btnSiguiente);
 
         btnSiguiente.setOnClickListener(new View.OnClickListener() {
