@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.martelopez.contactapp.DetailContact">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nombre"
+            android:text="@string/nombre"
+            android:textSize="@dimen/texto_size"
+            android:layout_width="@dimen/titulo"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marge_top"
+            android:layout_marginLeft="@dimen/margen_izq"
+            android:layout_marginRight="@dimen/marge_der"
+            />
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marge_top"
+            android:layout_marginLeft="@dimen/margen_izq"
+            android:layout_marginRight="@dimen/marge_der"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/telefono"
+            android:text="@string/telefono"
+            android:textSize="@dimen/texto_size"
+            android:layout_width="@dimen/titulo"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marge_top"
+            android:layout_marginLeft="@dimen/margen_izq"
+            android:layout_marginRight="@dimen/marge_der"
+            />
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marge_top"
+            android:layout_marginLeft="@dimen/margen_izq"
+            android:layout_marginRight="@dimen/marge_der"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/correo"
+            android:text="@string/pcorreo"
+            android:textSize="@dimen/texto_size"
+            android:layout_width="@dimen/titulo"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marge_top"
+            android:layout_marginLeft="@dimen/margen_izq"
+            android:layout_marginRight="@dimen/marge_der"
+            />
+
+        <TextView
+            android:id="@+id/tvCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marge_top"
+            android:layout_marginLeft="@dimen/margen_izq"
+            android:layout_marginRight="@dimen/marge_der"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:text="@string/descripcion"
+            android:textSize="@dimen/texto_size"
+            android:layout_width="@dimen/titulo"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marge_top"
+            android:layout_marginLeft="@dimen/margen_izq"
+            android:layout_marginRight="@dimen/marge_der"
+            />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marge_top"
+            android:layout_marginLeft="@dimen/margen_izq"
+            android:layout_marginRight="@dimen/marge_der"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marge_top"
+        android:textColorHint="@android:color/white"
+        android:background="@color/colorAccent"
+        android:hint="@string/btn_editar"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

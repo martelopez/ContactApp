@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ContactApp</string>
+    <string name="confirmar_datos">Confirmar Datos</string>
+
+    <string name="nombre">Nombre: </string>
+    <string name="telefono">Telefono: </string>
+    <string name="correo">Correo: </string>
+    <string name="descripcion">Descripción: </string>
+
+    <string name="hintNombre">Nombre Completo</string>
+    <string name="hint_fecha">Fecha de Nacimiento</string>
+    <string name="hintTelefono">Telefono</string>
+    <string name="hintCorreo">Correo Electronico</string>
+    <string name="hintDescripcion">Descripción</string>
+
+    <string name="btn_siguiente">SIGUIENTE</string>
+    <string name="btn_editar">Editar Datos</string>
+
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pcorreo">correo</string>
+    <string name="pdescripcion">descripcion</string>
+</resources>
